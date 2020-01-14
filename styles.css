@@ -3,7 +3,11 @@
     font-weight: bold;
 }
 
-//Mobile
+header {
+    padding: 0 14px;
+}
+
+
 @media all and (max-width: 769px) {
     .logo {
         display: none;       
@@ -22,8 +26,13 @@
     }
 }
 
-//tablet
+
 @media all and (min-width: 770px) {
+    .title {
+        padding: 20px 0;
+    }
+
+
     .logo {
         display: inline-block;
         vertical-align: bottom;
@@ -42,11 +51,71 @@
     .subtitle > p {
         font-size: 12px;
     }
+
+    .contact {
+        cursor: pointer;    
+        position: absolute; right: 10px; top: 16px;
+        border: 1px solid #da6b64;
+        background-color: #da6b64;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        padding: 11px 40px;
+        opacity: 0.8;
+        width: 300px;
+        text-align: center;
+    }
+
+    .contact:hover {
+        opacity: 1.0;
+    }
+
+    .contact > a {
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+    }
 }
 
-//PC
+
 @media all and (min-width: 1190px) {
-    .logo > img  {
-        width :200px;
+
+
+    .title {
+        padding: 20px 0;
     }
+    .logo > img  {
+        width :128px;
+    }
+
+    .subtitle > p {
+        font-size: 14px;
+    }
+
+    .contact {
+        cursor: pointer;    
+        position: absolute; right: 10px; top: 16px;
+        border: 1px solid #da6b64;
+        background-color: #da6b64;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        padding: 11px 40px;
+        opacity: 0.8;
+        width: 350px;
+        text-align: center;
+    }
+
+    .contact:hover {
+        opacity: 1.0;
+    }
+
+    .contact > a {
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+    }
+}
 }
