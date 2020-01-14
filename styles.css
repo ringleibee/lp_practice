@@ -1,0 +1,52 @@
+
+.subtitle {
+    font-weight: bold;
+}
+
+//Mobile
+@media all and (max-width: 769px) {
+    .logo {
+        display: none;       
+    }    
+
+    .logo-mobile > img {
+        width: 90px;
+    }
+
+    .subtitle > p {
+        font-size: 10px;
+    }
+
+    .title {
+        height: 62px;
+    }
+}
+
+//tablet
+@media all and (min-width: 770px) {
+    .logo {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 128px;
+    }
+
+    .logo > img {
+        width: 128px;
+    }
+    
+
+    .logo-mobile {
+        display: none;
+    }
+
+    .subtitle > p {
+        font-size: 12px;
+    }
+}
+
+//PC
+@media all and (min-width: 1190px) {
+    .logo > img  {
+        width :200px;
+    }
+}
