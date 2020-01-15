@@ -7,8 +7,28 @@ header {
     padding: 0 14px;
 }
 
+.contact-mobile {
+    display: none;
+    background-color: #da6b64;
+}
+
+.contact-mobile > a > img {
+    width: 20px;   
+}
+
+.contact-mobile > a > p {
+    color: #fff;
+}
+
+.contact {
+    display: none;
+}
 
 @media all and (max-width: 769px) {
+
+    header {
+        padding-right: 0;
+    }
     .logo {
         display: none;       
     }    
@@ -23,6 +43,17 @@ header {
 
     .title {
         height: 62px;
+    }
+
+
+    .contact-mobile {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        padding: 9px 11px;
+        font-size: 12px;
     }
 }
 
@@ -53,6 +84,7 @@ header {
     }
 
     .contact {
+        display: inline-block;
         cursor: pointer;    
         position: absolute; right: 10px; top: 16px;
         border: 1px solid #da6b64;
@@ -94,6 +126,7 @@ header {
     }
 
     .contact {
+        display: inline-block;
         cursor: pointer;    
         position: absolute; right: 10px; top: 16px;
         border: 1px solid #da6b64;
