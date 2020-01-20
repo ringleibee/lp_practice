@@ -30,6 +30,7 @@ header {
 }
 
 .cover-text {
+    display: table-cell;
     opacity: 0.8;
     position:absolute;
     left: 50%;
@@ -40,6 +41,37 @@ header {
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+}
+
+.mainlogo {
+    max-width: 317px;
+    width: 90%;
+    margin: 10px;
+   
+}
+
+.txtm {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txtm-conversion {
+    letter-spacing: 1.5px;
+}
+
+
+.conversion {
+    background-color: #ebb94d;
+    text-align: center;
+    padding: 30px 0;
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
 }
 
 @media all and (max-width: 769px) {
@@ -64,6 +96,7 @@ header {
     }
 
 
+
     .contact-mobile {
         display: inline-block;
         cursor: pointer;
@@ -80,8 +113,9 @@ header {
 
     .cover-text {
         font-size: 18px;
-        top: 50px;
+        top: 80px;
     }
+
 }
 
 
