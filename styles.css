@@ -74,7 +74,155 @@ code {
     border-radius: 4px;
 }
 
+.txt1 {
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.conversion-startpoint {
+    cursor: pointer;
+    background-color: #da6b64;
+    border-radius: 50px;
+    color: #fff;
+    padding: 15px 20px;
+    margin: 10px 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+
+.conversion-startpoint:hover {
+    background-color: #d84940;
+}
+
+.txtxs {
+    font-size: 10px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+.txtxs > p {
+    margin-top: 35px;
+    letter-spacing: 1.4;
+}
+
+.txt2 {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+}
+
+.contents {
+    padding: 25px 0;
+}
+
+.contents > p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.introduction {
+    background-image: url("https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 587px;
+    text-align: center;
+    padding 40px 0;
+}
+
+.contents-under {
+    border-bottom: 7px solid orange; 
+    font-weight: bold;
+}
+
+
+.aboutisara {
+
+    padding: 0 0 40px 0;
+    background-color: #fef5e0;
+    text-align: center;
+}
+
+.abouticon {
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.circle1 {
+    color: #fff;
+    background-color: #ebb94d;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.txt3 {
+    
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    
+}
+
+.txt3-desc {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+    letter-spacing: 1.5px;
+    line-height: 24px;;
+}
+
+.aboutbox {
+
+    border:2px solid #ebb94d;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 30px auto;
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.box {
+    padding: 5px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.box > p {
+    margin: 10px 0;
+    letter-spacing: 1.5px;
+}
+
+.box img {
+    height: 30px;
+}
+
+.txt4-desc > span {
+    color: orange;
+}
+
+.aboutsecond {
+    background-image: url("https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbgsp.jpg");
+    padding: 30px 30px;
+}
+
+
 @media all and (max-width: 769px) {
+
+    .mbr {
+        display: none;
+    }
 
     header {
         padding-right: 0;
@@ -116,10 +264,43 @@ code {
         top: 80px;
     }
 
+    .txt2 {
+        font-size: 18px;
+    }
+
+    .circle1 {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 12px;
+    }
+
+    .introduction: {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    }
+
+    .txt3 {
+        font-size: 18px;
+        margin: 20px 0 10px 0;
+    }
+
+    .aboutbox {
+        padding: 10px;
+    }
+
+ 
+
 }
 
 
 @media all and (min-width: 770px) {
+
+    .br {
+        display: none;
+        
+    }
     .title {
         padding: 20px 0;
     }
@@ -179,6 +360,37 @@ code {
         font-size: 24px;
         top: 150px;
     }
+
+    .txtxs {
+        font-size: 14px;
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+
+    .txt2 {
+        font-size: 24px;
+    }
+    .contents  > p {
+        font-size: 16px;
+    } 
+
+    .txt3 {
+        font-size: 24px;
+    }
+
+    .aboutbox {
+      
+        padding: 30px;
+    }
+
+    .box > img {
+        height: 57px;
+        
+    }
+
+    .box > p {
+        font-size: 12px;
+    }
 }
 
 
@@ -226,6 +438,32 @@ code {
         font-size: 28px;
     }
 
+    .txt1 {
+        font-size: 28px;
+    }
+
+    .txtxs {
+        font-size: 18px;
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+
+    .txt2 {
+        font-size: 24px;
+    }
+
+    .contents > p {
+        font-size: 20px;
+    }
+
+    .txt3 {
+        font-size: 28px;
+    }
+
+    .aboutbox {
+        
+        padding: 30px;
+    }
 
 }
 
