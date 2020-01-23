@@ -208,6 +208,16 @@ code {
     height: 30px;
 }
 
+.txt4 {
+    font-size: 18px;
+}
+
+.txt4-desc {
+    font-size: 13px;
+    color: #fff;    
+}
+
+
 .txt4-desc > span {
     color: orange;
 }
@@ -215,6 +225,23 @@ code {
 .aboutsecond {
     background-image: url("https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbgsp.jpg");
     padding: 30px 30px;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.sidebox {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.step {
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    
 }
 
 
@@ -289,6 +316,15 @@ code {
     .aboutbox {
         padding: 10px;
     }
+
+    .sidebox {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 15px 50px;
+    
+    }
+
+
 
  
 
@@ -391,6 +427,20 @@ code {
     .box > p {
         font-size: 12px;
     }
+
+    .sidebox {
+
+        padding: 30px 30px 20px 30px;
+        margin: 0 20% 20px;
+        width: 60%;
+        
+    }
+
+    .sidebox-parent {
+        justify-content: center;
+    }
+
+
 }
 
 
@@ -464,6 +514,26 @@ code {
         
         padding: 30px;
     }
+
+    .sidebox {
+        
+        margin: 0;
+        padding: 30px 30px 20px 30px;
+        letter-spacing: 1.5px;
+        width: 32%;
+    }
+
+    #sidebox-one {
+        margin-right: 20px;
+       
+    }
+
+    #sidebox-two {
+        margin-left: 20px;
+    }
+
+
+
 
 }
 
