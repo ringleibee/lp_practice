@@ -245,6 +245,23 @@ code {
 }
 
 
+.aboutthird {
+    background-color: #016ea9;
+    
+}
+
+.txt5 {
+    color: white;
+    margin: 0 0;
+    font-weight: bold;
+    
+}
+
+.txt5 > span {
+    color: orange;
+}
+
+
 @media all and (max-width: 769px) {
 
     .mbr {
@@ -324,6 +341,16 @@ code {
         margin-bottom: 15px;
         padding: 15px 50px;
     
+    }
+
+    .aboutthird {
+        padding: 25px 0;
+        height: 97px;
+    }
+
+    .txt5 {
+        font-size: 12px;
+        
     }
 
 
@@ -442,6 +469,17 @@ code {
         justify-content: center;
     }
 
+    .aboutthird {
+        
+        height: 130px;
+        padding: 40px 0;
+        
+    }
+
+    .txt5 {
+        font-size: 16px;
+    }
+
 
 }
 
@@ -532,6 +570,15 @@ code {
 
     #sidebox-two {
         margin-left: 20px;
+    }
+
+    .aboutthird {
+        height: 144px;
+        padding: 40px 0 ;
+    }
+
+    .txt5 {
+        font-size: 20px;
     }
 
 
