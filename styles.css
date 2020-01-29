@@ -261,15 +261,40 @@ code {
     color: orange;
 }
 
-.learning-box {
-    width: 25%;
+.learning-container {
+    padding: 0;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 40px auto;
 }
-.learning-img {
-    width: auto;
+
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+
+.learning-box {
+    display: inline;
+}
+
+
+.learning-box > img {
+    width: 180px;
+}
+
+img {
     height: auto;
     max-width: 100%;
-    max-height: 100%
+    max-height: 100%;
 }
+
+.txt6 {
+    font-weight: bold;
+}
+
+
+
 
 
 @media all and (max-width: 769px) {
@@ -361,6 +386,20 @@ code {
     .txt5 {
         font-size: 12px;
         
+    }
+
+    .learning-container {
+        padding: 0 50px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .learning-box {
+        padding: 5px;
+    }
+
+    .learning-box > img {
+        width: 120px;
     }
 
 
@@ -488,6 +527,10 @@ code {
 
     .txt5 {
         font-size: 16px;
+    }
+
+    .learning-box {
+        padding: 20px;
     }
 
 
